@@ -2,8 +2,8 @@ require "sinatra"
 
 get "/" do
 	name = params["name"]
-
-	if !name
+	a = [name]
+	if a.empty?
 		"Hola desconocido!"
 	else
 	 "Hola #{name}"
