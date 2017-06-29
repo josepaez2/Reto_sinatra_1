@@ -1,11 +1,11 @@
 require "sinatra"
 
 get "/" do
-	name = params["name"]
-	if !name
+	nombre = params["nombre"]
+	if !nombre
 		"Hola desconocido!"
 	else
-	 "Hola #{name}!"
-	end
+	 "Hola #{nombre}!"
+	end	
 end
 
