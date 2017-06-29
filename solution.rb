@@ -6,7 +6,7 @@ get "/" do
 	if a.empty?
 		"Hola desconocido!"
 	else
-	 "Hola #{name}"
+	 "Hola #{name}!"
 	end
 end
 
